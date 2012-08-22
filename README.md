@@ -13,13 +13,13 @@ Backup the data to the sdcard
  
 Feature in mind
 =====================
-<li> 1.Create a lib that will be used in another Android project.</li>
+1.Create a lib that will be used in another Android project.
 
-<li> 2.The backup data will be stored/parsed with XML format.</li>
+2.The backup data will be stored/parsed with XML format.
 
-<li> 3.Support file encryption.</li>
+3.Support file encryption.
 
-<li> 4.Support file compress with zip format.</li>
+4.Support file compress with zip format.
 
 
 Backup config XML
@@ -27,7 +27,7 @@ Backup config XML
 
 doc/config_backup_example.xml
 
-<pre>
+<code>
 <root>
 	<app_info>
 		<app_name> your app name </app_name>
@@ -46,7 +46,7 @@ doc/config_backup_example.xml
 		<dest>/sdcard/backup/me.pjq.app/time/</dest>
 	</backup_info>	
 </root>
-</pre>
+</code>
 
 
 
