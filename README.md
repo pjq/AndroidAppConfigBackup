@@ -27,7 +27,7 @@ Backup config XML
 
 doc/config_backup_example.xml
 
-<xml>
+<pre>
 <root>
 	<app_info>
 		<app_name> your app name </app_name>
@@ -46,7 +46,7 @@ doc/config_backup_example.xml
 		<dest>/sdcard/backup/me.pjq.app/time/</dest>
 	</backup_info>	
 </root>
-</xml>
+</pre>
 
 
 
